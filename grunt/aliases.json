@@ -1,0 +1,6 @@
+{
+    "build": [ "clean", "jshint", "copy" ],
+    "default": [ "build" ],
+    "run": [ "build", "connect", "watch" ]
+}
+  

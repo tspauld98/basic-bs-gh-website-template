@@ -1,0 +1,25 @@
+<!--
+ Copyright (c) 2023 Battle Road Consulting. All rights reserved.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Web Page</title>
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <h1>Simple Web Page</h1>
+    <p>This is a simple web page to demonstrate this template.</p>
+    <p><br/></p>
+    <p id="idHostDom"></p>
+
+    <script type="text/javascript">
+        var varHostDom = document.getElementById("idHostDom");
+        varHostDom.innerHTML = "Location hostname: " + (window.location.hostname);
+    </script>
+
+    <script src="assets/js/devReloader.js"></script>
+</body>
+</html>
