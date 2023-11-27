@@ -3,11 +3,17 @@
  *******************************************************************************/
 
 module.exports = {
-    resources: {
+    srcPublic: {
         expand: true,
         cwd: 'src/public',
         src: '**',
         dest: 'build'
+    },
+    bootstrapJs: {
+        expand: true,
+        cwd: 'node_modules/bootstrap/dist/js',
+        src: '**/bootstrap.bundle.min.js',
+        dest: 'build/assets/dist/bootstrap/js'
     }
 };
   

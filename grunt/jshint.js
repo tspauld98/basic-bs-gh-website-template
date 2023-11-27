@@ -12,6 +12,7 @@ module.exports = {
       'test/**/*.js'
     ],
     options: {
+      esversion: 6,
       globals: {
         jQuery: true
       }
