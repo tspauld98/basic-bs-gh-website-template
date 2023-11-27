@@ -25,3 +25,9 @@ You will need to have the following installed on your machine:
 ```bash
     npm install
 ```
+
+## Next Steps
+
+1. [ ] Update the README.md with usage instructions for Grunt.
+2. [ ] Add Bootstrap to the project.
+3. [ ] Add tasks to deploy to Github Pages.
