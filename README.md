@@ -1,4 +1,4 @@
-# BRC Basic Grunt Project Template
+# BRC Static Bootstrap Website Project Template for Github Pages
 
 This is a basic template for a static website project using Grunt as the build tool and Github Pages for hosting.  This template is the basis for several other BRC front-end project templates.
 
