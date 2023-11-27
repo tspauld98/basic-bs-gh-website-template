@@ -1,4 +1,4 @@
-# BRC Static Bootstrap Website Project Template for Github Pages
+# Static Bootstrap Website Project Template for Github Pages
 
 This is a basic template for a static website project using Grunt as the build tool and Github Pages for hosting.  This template is the basis for several other BRC front-end project templates.
 
@@ -13,21 +13,45 @@ You will need to have the following installed on your machine:
 * [Grunt](https://gruntjs.com/) - This is the build tool that will be used to build your project.  You can install Grunt by running the following command in a terminal window:
 
 ```bash
-    npm install -g grunt-cli
+npm install -g grunt-cli
 ```
 
 ### Usage
 
-1. Clone this repository to your local development workstation.
+1. If you want to contribute to this template repository, clone this repository to your local development workstation.  If you want to build a project based on this template, you can either clone this repository, create your own repository using this template repository or download the source code as a zip file and extract it to your local development workstation.  The rest of these instructions assume you have used one of the preceding methods to establish a local copy of this repository on your local development workstation for active development.
 2. Open a terminal window and navigate to the root directory of the project.
 3. Run the following command to install the project dependencies:
 
 ```bash
-    npm install
+npm install
 ```
+
+4. Run the following command to build the project:
+
+```bash
+grunt
+```
+
+5. Run the following command to build and start the local web server hosting the built project:
+
+```bash
+grunt run
+```
+
+6. Grunt and the web content in this template project is configured to live reload the target browser whenever a change is made to files in the `src/public` directory.  After running the `grunt run` command, simply open your preferred editor to make changes and once you have saved your changes, the browser will automatically reload to display the changes.
+
+7. After you have finished making changes and you want to publish them to Github Pages, commit all of your changes to your local Git repository and push them to your Github hosted repository.
+
+8. Once your local repository and the Github repository are synchronized, run the following command to deploy the latest version of the project to Github Pages:
+
+```bash
+grunt deploy
+```
+
+9. You can now view the deployed project at the following URL: https://[your-github-username].github.io/[your-github-repository-name]
 
 ## Next Steps
 
-1. [ ] Update the README.md with usage instructions for Grunt.
+1. [x] ~~Update the README.md with usage instructions for Grunt.~~
 2. [ ] Add Bootstrap to the project.
 3. [ ] Add tasks to deploy to Github Pages.
