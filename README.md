@@ -40,7 +40,7 @@ grunt run
 
 6. Grunt and the web content in this template project is configured to live reload the target browser whenever a change is made to files in the `src/public` directory.  After running the `grunt run` command, simply open your preferred editor to make changes and once you have saved your changes, the browser will automatically reload to display the changes.
 
-### Deploying to Github Pages
+#### Deploying to Github Pages
 
 The following steps assume that you have created a personal Github repository from this project template and that you have cloned that repository to your local development workstation.  These instructions will NOT work if you have cloned this repository directly or if you have downloaded the source code as a zip file and extracted it to your local development workstation but have not created a Github repository from it.
 
