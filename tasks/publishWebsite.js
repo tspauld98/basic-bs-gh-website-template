@@ -12,6 +12,7 @@ module.exports = function(grunt) {
         grunt.log.writeln('Publishing website to GitHub Pages...');
         _ghPages.publish('build', { nojekyll: true }, function(err) {
             let success = true;
+            grunt.log.writeln('Finished publishing website to GitHub Pages.');
             if (err) {
                 grunt.log.error("publishWebsite Failed with the Following Error: " + err);
                 success = false;
