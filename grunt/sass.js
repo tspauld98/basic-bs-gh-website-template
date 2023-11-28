@@ -3,12 +3,17 @@
  *******************************************************************************/
 
 module.exports = {
-    watch: {
-        files: ['src/**/*'],
-        tasks: ['sass', 'jshint', 'copy'],
+    dist: {
         options: {
-            livereload: true
-        }
+            debugInfo: true,
+            loadPath: ['node_modules']
+        },
+        files: [{
+            expand: true,
+            cwd: 'src/scss',
+            src: ['**/*.scss'],
+            dest: 'build/assets/css',
+            ext: '.css'
+        }]
     }
 };
-  

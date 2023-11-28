@@ -8,6 +8,8 @@ This is a basic template for a static website project using Grunt as the build t
 
 You will need to have the following installed on your machine:
 
+* [Ruby](https://www.ruby-lang.org/en/) - This project uses sass to transpile scss into css and the grunt plugin for sass requires the Ruby runtime environment for Sass on the local development workstation that will be used to build your project.  You can find OS-specific installation instructions [here](https://www.ruby-lang.org/en/documentation/installation/).  Also, it is HIGHLY recommended to use a Ruby version manager such as [rbenv](https://github.com/rbenv/rbenv) to install Ruby.
+* [Sass](https://sass-lang.com/) - This project uses sass to transpile scss into css.  You must use the Ruby Sass transpiler which is installed by running `gem install sass` in a terminal window once you have installed Ruby.
 * (Optional, but HIGHLY Recommended) [Node Version Manager](https://github.com/nvm-sh/nvm) - This will allow you to easily install and switch between different versions of Node.js and npm.  You can find OS-specific installation instructions [here](https://github.com/nvm-sh/nvm#installing-and-updating).
 * [Node.js](https://nodejs.org/en/) - This is the runtime environment for Grunt on the local development workstation that will be used to build your project.  The best way to install Node.js is to use nvm [see these usage instructions](https://github.com/nvm-sh/nvm#usage).  If you are not using nvm, you can find OS-specific installation instructions [here](https://nodejs.org/en/download/). `npm` should be installed along with Node.js automatically.  If it is not, you can find instructions for installing `npm` [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 * [Grunt](https://gruntjs.com/) - This is the build tool that will be used to build your project.  You can install Grunt by running the following command in a terminal window:
@@ -57,5 +59,5 @@ grunt deploy
 ## Next Steps
 
 1. [x] ~~Update the README.md with usage instructions for Grunt.~~
-2. [ ] Add Bootstrap to the project.
+2. [x] ~~Add Bootstrap to the project.~~
 3. [ ] Add tasks to deploy to Github Pages.
