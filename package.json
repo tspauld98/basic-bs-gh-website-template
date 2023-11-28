@@ -3,8 +3,8 @@
         "This package.json file is used to configure the basic grunt project template."
     ],
     "name": "static-bs-gh-website-template",
-    "description": "A basic grunt project template.",
-    "version": "0.5.0",
+    "description": "A basic grunt project template using Bootstrap and Github Pages.",
+    "version": "1.0.0",
     "license": "ISC",
     "dependencies": {
         "@popperjs/core": "^2.11.8",
