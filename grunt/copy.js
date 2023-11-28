@@ -6,7 +6,7 @@ module.exports = {
     srcPublic: {
         expand: true,
         cwd: 'src/public',
-        src: '**',
+        src: [ '**/*', '**/.*' ],
         dest: 'build'
     },
     bootstrapJs: {
@@ -14,6 +14,12 @@ module.exports = {
         cwd: 'node_modules/bootstrap/dist/js',
         src: '**/bootstrap.bundle.min.js',
         dest: 'build/assets/dist/bootstrap/js'
+    },
+    bootstrapIcons: {
+        expand: true,
+        cwd: 'node_modules/bootstrap-icons/icons',
+        src: '**/bootstrap-fill.svg',
+        dest: 'build/assets/dist/bootstrap-icons/icons'
     }
 };
   
