@@ -1,4 +1,4 @@
-# Static Bootstrap Website Project Template for Github Pages
+# Basic Bootstrap Website Project Template for Github Pages
 
 This is a basic template for a static website project using Grunt as the build tool and Github Pages for hosting.  This template is the basis for several other front-end project templates in development.  The contents of this template are based on the [Bootstrap Sass and JS Template](https://github.com/twbs/examples/blob/main/sass-js/README.md).
 
